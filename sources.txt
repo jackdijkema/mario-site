@@ -1,0 +1,2 @@
+https://www.educative.io/edpresso/how-to-create-a-countdown-timer-using-javascript
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow

@@ -1,0 +1,9 @@
+Link:
+https://mariojack-548b8.web.app
+
+Toegevoegd
+
+- Added Favicons
+- Added Scroll down button + Smooth Scroll
+- Added Slideshow
+- Made icon+text clickable in Navbar

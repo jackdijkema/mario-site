@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="js/main.js"></script>
+    <title>Super Mario Bros - Home</title>
+</head>
+<body>
+    <main>
+ 
+        <nav class="main-nav">
+            <ul>
+                <section class="nav-item">
+                    <img class="#" src="img/mario-icons/box.png">
+                    <li><a href="#">Home</li></a>
+                </section>
+                <section class="nav-item">
+                    <img class="#" src="img/mario-icons/box.png">
+                    <li><a href="#">Story</li></a>
+                </section>
+                <section class="nav-item">
+                    <img class="#" src="img/mario-icons/box.png">
+                    <li><a href="shop.html">Shop</li></a>
+                </section>
+            </ul>
+        </nav>
+
+        <section class="main-container">
+            <section class="platform">
+                <h2>Now Available on these platforms!</h2>
+                <section class="platform-cards">
+
+                    <section class="platform-card">
+                        <h2>ARCADE</h2>
+                        <figure>
+                            <img src="img/consoles/arcade.png" alt="#">
+                        </figure>
+                    </section>
+                    
+                <section class="platform-card">
+                    <h2>(NES) Nintendo Entertainment System</h2>
+                    <figure>
+                            <img src="img/consoles/nes.png" alt="#">
+                    </figure>
+                </section>
+            </section>
+                
+            </section>
+            
+            <section class="characters">
+                <h1>Mario & Luigi VS Bowser</h1>
+                <section class="cards-character">
+                    <section class="card">
+                        <figure>
+                            <img src="img/mario-icons/box.png" alt="Luigi character">
+                            <figcaption>
+                            </figcaption>
+                        </figure>
+                            <h2>Bowser</h2>
+                    </section>
+                    
+                </section>
+                <h2 class="versus">VS</h2>
+                
+                
+                <section class="cards-character">
+                
+                    <section class="card">
+                    
+                        <figure>
+                            <img src="img/brothers/mario.png" alt="mario character">
+                            <figcaption>
+                                Player 1
+                            </figcaption>
+                        </figure>
+                            <h2>Mario</h2>
+                    </section>
+
+                    <section class="card">
+                        <figure>
+                            <img src="img/brothers/luigi.png" alt="Luigi character">
+                            <figcaption>
+                                Player 2
+                            </figcaption>
+                        </figure>
+                            <h2>Luigi</h2>
+                    </section>
+                    
+                </section>
+                
+            </section>
+            <section class="story">
+                <section class="story-container">
+                    <h1>Storyline</h1>
+                        <p>
+                            Plumber brothers Mario and Luigi from Brooklyn have just arrived in an outlandish realm called the Mushroom Kingdom.
+                            It was ruled by Princess Toadstool and her faithful Mushroom people.<br><br>
+                            But one day, <br>evil cast a shadow over the land and the evil King Bowser Koopa emerged with his army of Goombas, Spinies, Flying Koopas, and other malignant creatures.<br><br>
+                            King Koopa abducted Princess Toadstool and trapped her faithful Mushroom People in seven of his castles. So Mario and Luigi must intrepid deep and hazardous waters, jump from tree to tree (don't look down!)
+                            , and visually examine their steps in the dark evil castles filled with fire balls and lava pits and must utilize their magic powers to subjugate the evil King Koopa and rescue the Princess.
+                        </p>
+                </section>
+            </section>
+        </section>
+
+
+        <section class="landing-page">
+            <section class="logo-container">
+                <img class="landing-video-logo fade" id="img1" src="img/logo.png" alt="mario bros logo">
+            </section>
+
+            <video autoplay muted loop preload class="landing-video">
+            <source src="video.mp4" type="video/mp4">
+        
+            </video>
+        </section>
+    </main>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>

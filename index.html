@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+    <title>Super Mario Bros - Home</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <main>
+        <section class="nav-container">
+            <nav class="main-nav">
+                    <div class="nav-item">
+                        <a href="#landing">
+                            <img class="#" src="img/mario-icons/box.png" alt="home-btn">
+                        Home</a>
+                    </div>
+                
+                    <div class="nav-item">
+                        <a href="#story"> 
+                        <img class="#" src="img/mario-icons/box.png" alt="storyline-btn">
+                        Story</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="shop.html">
+                        <img class="#" src="img/mario-icons/box.png" alt="shop-btn">
+                        Shop</a>
+                    </div>
+                    <div class="nav-item">
+                        <a onclick="play()">
+                        <img class="#" src="img/mario-icons/mushroom.png" alt="play-music-btn">
+                        Play</a>
+                    </div>
+                </nav>
+        </section>
+
+        <section class="release-date-timer">
+            <h1>Game Released:</h1> 
+            <h2 id="days"></h2>
+         </section>
+
+            <button onclick="scrollBottom()" id="bottomButton" class="scroll-button fa fa-arrow-down" title="Go to Bottom"></button>
+
+        <section class="main-container">
+           
+            <section class="slideshow">
+                <h2>Slideshow</h2>
+                    <div class="slide">
+                        <figure>
+                            <img src="./img/slides/slide1.jpeg" loading="lazy" alt="slide 1">
+                        </figure>
+                    </div>
+                    
+                    <div class="slide">
+                        <figure>
+                            <img src="./img/slides/slide2.webp"loading="lazy" alt="slide 2">
+                        </figure>
+                    </div>
+
+                    <div class="slide">
+                        <figure>
+                            <img src="./img/slides/slide3.jpeg" loading="lazy" alt="slide 3">
+                        </figure>
+                    </div>
+
+                    <section class="controls">
+                        <button onclick="nextSlide(-1)" class="fa fa-arrow-left control" ></button>
+                        <button onclick="nextSlide(1)" class="fa fa-arrow-right control"></button>
+                    </section>
+            </section>
+
+            <section class="platform">
+                <h2>Now Available on <br>these platforms!</h2>
+                <section class="platform-cards">
+
+                    <section class="platform-card">
+                        <h2>ARCADE MACHINE</h2>
+                        <figure>
+                            <img src="img/consoles/arcade.jpg" loading="lazy" alt="#">
+                        </figure>
+                    </section>
+                    
+                <section class="platform-card">
+                    <h2>(NES) Nintendo Entertainment System</h2>
+                    <figure>
+                            <img src="img/consoles/nes.png" loading="lazy" alt="#">
+                    </figure>
+                </section>
+            </section>
+                
+            </section>
+            
+            <section class="characters">
+                <h1>Mario & Luigi VS Bowser</h1>
+
+                <section class="cards-character">
+
+                    <section class="card">
+                        <figure>
+                            <img src="img/mario-icons/box.png" loading="lazy" alt="Luigi character">
+                            <figcaption>
+                            </figcaption>
+                        </figure>
+                            <h2>?</h2>
+                    </section>
+                    
+                    <section class="card">
+                        <figure>
+                            <img src="img/mario-icons/box.png" loading="lazy" alt="Luigi character">
+                            <figcaption>
+                            </figcaption>
+                        </figure>
+                            <h2>?</h2>
+                    </section>
+
+                </section>
+
+                <h2 class="versus">VS</h2>
+                
+                
+                <section class="cards-character">
+                
+                    <section class="card">
+                    
+                        <figure>
+                            <img src="img/brothers/mario.png" loading="lazy" alt="mario character">
+                            <figcaption>
+                                Player 1
+                            </figcaption>
+                        </figure>
+                            <h2>Mario</h2>
+                    </section>
+
+                    <section class="card">
+                        <figure>
+                            <img src="img/brothers/luigi.png" loading="lazy" alt="Luigi character">
+                            <figcaption>
+                                Player 2
+                            </figcaption>
+                        </figure>
+                            <h2>Luigi</h2>
+                    </section>
+                    
+                </section>
+                
+            </section>
+
+            <section class="story" id="story">
+                <section class="story-container">
+                    <h2>Storyline</h2>
+                        <p>
+                            Plumber brothers Mario and Luigi from Brooklyn have just arrived in an outlandish realm called the Mushroom Kingdom.
+                            It was ruled by Princess Toadstool and her faithful Mushroom people.<br><br>
+                            But one day, evil cast a shadow over the land and the evil King Bowser Koopa emerged with his army of Goombas, Spinies, Flying Koopas, and other malignant creatures.<br><br>
+                            King Koopa abducted Princess Toadstool and trapped her faithful Mushroom People in seven of his castles. So Mario and Luigi must intrepid deep and hazardous waters, jump from tree to tree (don't look down!)
+                            , and visually examine their steps in the dark evil castles filled with fire balls and lava pits and must utilize their magic powers to subjugate the evil King Koopa and rescue the Princess.
+                        </p>
+                </section>
+            </section>
+        </section>
+
+
+        <section class="landing-page">
+            <section class="logo-container" >
+                <img class="landing-video-logo fade" id="img1" src="img/logo.png" alt="mario bros logo">
+            </section>
+
+            <video autoplay muted loop preload class="landing-video" id="landing">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+</body>
+
+</html>
