@@ -1,3 +1,3 @@
 # mario-site
 
-Schoolproject html + css + js
+Schoolproject html + css + js and firebase
