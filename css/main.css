@@ -346,6 +346,11 @@ body {
     margin: auto;
 }
 
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
 @media (min-width: 300px) {
 
     main>h1 {
